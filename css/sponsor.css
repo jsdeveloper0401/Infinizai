@@ -1,0 +1,38 @@
+.sponsor {
+    padding: 130px 0px;
+    background-color: #fdd04a;
+}
+.sponsor-row {
+    max-width: 100%;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor-row img {
+    width: 193px;
+    height: 89px;
+}
+.sponsor-title {
+    color: #222730;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+.sponsor-text {
+    width: 426px;
+    height: 52px;
+    margin-top: 40px;
+    color: var(--Muted);
+    margin: 0 auto;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}

@@ -1,0 +1,91 @@
+
+.gaming {
+    width: 100%;
+    background-color: black;
+}
+.gaming h2 {
+    width: 684px;
+    height: 148px;
+    top: 43.58px;
+    font-family: var(--Orbitron);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.gaming-row {
+    max-width: 100%;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    display: flex;
+    gap: 95px;
+}
+.gaming .gaming-logo {
+    display: flex;
+    width: 660px;
+    height: 32px;
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--Orbitron);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.gaming-title {
+    min-width: 684px;
+    font-family: var(--Orbitron);
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+}
+.gaming-text {
+    width: 521px;
+    height: 120px;
+    margin-top: 38px;
+    font-family: var(--Orbitron);
+    color: rgba(223, 223, 223, 0.8);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gaming-btn button {
+    margin-top: 54px;
+    padding: 21px 34px;
+    border: none;
+    background-color: transparent;
+}
+.gaming-btn a {
+    width: 135px;
+    height: 28px;
+    color: #fff;
+    font-family: var(--Orbitron);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.game {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.game img {
+    width: 32px;
+    height: 30px;
+}
+.gaming-btn button a {
+    color: #fff;
+}
+.gaming-btn button:hover {
+    background-color: var(--Secondary-color);
+}

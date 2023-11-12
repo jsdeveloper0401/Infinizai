@@ -1,0 +1,48 @@
+.multiplayer {
+    background-color: #000;
+}
+.multiplayer-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.smooth {
+    width: 33.33%;
+    height: 732px;
+    padding: 257px 48px 259px 48px;
+    background-image: url(../images/mp-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+.mplayer{
+    width: 100%;
+}
+.multiplayers {
+    width: 33.33%;
+    height: 732px;
+    padding: 257px 48px 259px 48px;
+    background-image: url(../images/mp-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.map {
+    width: 33.33%;
+    height: 732px;
+    padding: 257px 48px 259px 48px;
+    background-image: url(../images/mp-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.smooth:hover,
+.multiplayers:hover,
+.map:hover {
+    background-size: 120% 120%;
+}

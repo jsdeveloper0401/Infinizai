@@ -1,0 +1,64 @@
+
+.header-info {
+    padding: 214px 0px 255px;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.future {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 24px;
+}
+.header-title {
+    font-family: var(--Orbitron);
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    color: #fff;
+    text-align: left;
+    max-width: 650px;
+}
+.header-text {
+    color: #999999;
+    max-width: 515px;
+    height: 56px;
+    margin-top: 45px;
+    color: #999;
+    font-family: var(--Orbitron);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.future-h3 {
+    font-family: var(--Orbitron);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #57b8ff;
+}
+.header-buttons {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 40px;
+}
+.header-btn {
+    padding: 21px 34px;
+    font-family: var(--Orbitron);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    transition: all 500ms;
+}
+.header-btn:hover {
+    background: #57b8ff;
+}

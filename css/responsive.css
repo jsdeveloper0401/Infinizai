@@ -1,0 +1,235 @@
+@media (max-width: 1200px) {
+    .header-row {
+        flex-direction: column;
+    }
+    .header-row {
+        gap: 50px;
+    }
+    .header-info{
+        padding: 100px 0 125px;
+    }
+    .shopping-row{
+        width: 100%;
+    }
+  
+    .nav-list{
+        display: none;
+    }
+    .shopping-row .card-item{
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 210px;
+    }
+    .gaming-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gaming-left{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gaming-right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gaming-right img{
+        width: 600px;
+        height: 500px;
+    }
+    .sponsor-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .sponsor-row img {
+        width: 300px;
+        height: 89px;
+    }
+}
+@media (max-width: 992px) {
+    .nav-info {
+        justify-content: space-between !important;
+        flex-direction: row !important;
+        gap: 30px;
+    }
+    .header-inner{
+        display: flex;
+        gap: 15px;
+    }
+    .hamburger {
+        display: block !important;
+        background: transparent;
+    }
+    .nav-list{
+        display: none !important;
+    }
+    .header-row {
+        padding: 100px 0px 150px;
+    }
+    .header-img{
+        display: none;
+    }
+    .shop{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .gaming{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gaming-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .shop .future{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .shopping-row .card-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sponsor-row {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .sponsor-row img {
+        width: 400px;
+        height: 200px;
+    }
+    .multiplayer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .multiplayer-row {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .multiplayer h4{
+        width:10px;
+    }
+    .smooth{
+        width: 100%;
+    }
+    .esport-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .esport-card{
+        margin: 0 auto;
+    }
+    .esport .joystic{
+        margin: 0 auto;
+    }
+    .esport-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}@media (max-width:768px){
+    .community-title{
+        width: 450px;
+         margin-left: auto;
+         margin-right: auto;
+         font-size: 50px;
+         line-height: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        height: 80px;
+        padding: 10px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .header-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+    .header-img {
+        width: 100%;
+    }
+    .shop {
+        padding: 15px;
+    }
+    .shopping-row{
+        width: 100%;
+        padding: 15px;
+    }
+    .shopping-row .card-item{
+        width: 350px;
+        height: 200px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gaming {
+        padding: 15px;
+    }
+    .gaming-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .esport {
+        padding: 15px;
+    }
+    .esport-card {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .esport-card img {
+        width: 100%;
+    }
+    .community {
+        padding: 15px;
+    }
+    .community-info {
+        width: 100%;
+        padding: 10px;
+    }
+    .multiplayer-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .joystic{
+        display: none;
+    }
+}
