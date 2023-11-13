@@ -57,7 +57,7 @@
     border-radius: 5px;
     left: 0;
 }
-.subscribe placeholder {
+.subscribe input{
     width: 206px;
     height: 28px;
     color: var(--Muted);
