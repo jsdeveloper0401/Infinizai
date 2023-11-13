@@ -60,7 +60,7 @@
 .subscribe input{
     width: 206px;
     height: 28px;
-    left:0;
+    text-align: left;
     color: var(--Muted);
     text-align: center;
     font-family: var(--Orbitron);
